@@ -55,8 +55,10 @@ public class DemoWebShopTest {
 
         step("Assert First Name", () ->
                 $("#FirstName").shouldHave(value("tester")));
+
         step("Assert Last Name", () ->
                 $("#LastName").shouldHave(value("testeroff")));
+
         step("Assert Email", () ->
                 $("#Email").shouldHave(value("tester@qa.guru")));
     }
